@@ -10,7 +10,8 @@ const Register = () => {
       </h2>
 
       <div className="space-y-4">
-        <input type="text" />
+        <label htmlFor="name">Name</label><br/>
+        <input type="text" id="name"/>
         <Email/>
         <Password/>
         <Button/>
