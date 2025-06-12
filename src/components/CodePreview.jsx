@@ -9,10 +9,9 @@ const CodePreview = () => {
         </div>
         <div className="h-[25vh]">
             <h1 className="text-2xl mb-4 bg-gray-50 p-1 rounded-xl">Customise with ai</h1>
-            <input type="text" placeholder="prompt"></input>
+            <input type="text" placeholder="Enter your prompt"></input>
         </div>
     </div>
   )
 }
-
 export default CodePreview;
