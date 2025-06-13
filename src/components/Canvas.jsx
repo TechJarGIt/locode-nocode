@@ -176,7 +176,7 @@ export default function Canvas() {
     return (
         <div
             ref={canvasRef}
-            className="w-full min-h-[85vh] p-2 m-2 border-2 border-blue-500 rounded-lg"
+            className="w-full min-h-[85vh] p-2 m-2"
             onDragOver={(e) => e.preventDefault()}
             onDrop={handleDrop}>
 
@@ -236,7 +236,7 @@ export default function Canvas() {
             
             <div className="h-[78vh] w-full">
                 <ReactFlow
-                    className="border-2 border-red-500 rounded-lg"
+                    className="border-2 border-gray-100 shadow-sm rounded-lg"
                     nodes={nodes}
                     edges={edges}
                     onNodesChange={onNodesChange}

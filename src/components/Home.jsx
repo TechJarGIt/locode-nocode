@@ -33,23 +33,23 @@ export default function Home() {
         <p className='mb-6 text-lg'>AppForge offers a comprehensive suite of features designed to streamline app development
           and empower users of all skill levels.</p>
 
-        <div className='features grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-          <div className='feature bg-white p-6 rounded-lg shadow-md'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+          <div className='bg-white p-6 rounded-lg shadow-md'>
             <h2 className='text-xl font-semibold mb-2'>Visual Builder</h2>
             <p>Drag-and-drop components to build your app's UI visually. Customize layouts, add functionality, and preview your app in real-time.</p>
           </div>
 
-          <div className='feature bg-white p-6 rounded-lg shadow-md'>
+          <div className='bg-white p-6 rounded-lg shadow-md'>
             <h2 className='text-xl font-semibold mb-2'>AI-Powered App Generation</h2>
             <p>Generate app prototypes and functionalities using AI prompts. Describe your idea, and let AI create a starting point for you.</p>
           </div>
 
-          <div className='feature bg-white p-6 rounded-lg shadow-md'>
+          <div className='bg-white p-6 rounded-lg shadow-md'>
             <h2 className='text-xl font-semibold mb-2'>Idea-to-App Conversion</h2>
             <p>Transform your app ideas into functional applications without any coding. Simply describe your concept, and Flowsy will handle the rest.</p>
           </div>
 
-          <div className='feature bg-white p-6 rounded-lg shadow-md'>
+          <div className='bg-white p-6 rounded-lg shadow-md'>
             <h2 className='text-xl font-semibold mb-2'>Deployment</h2>
             <p>Deploy your app to a custom domain or subdomain with ease. Flowsy handles the hosting and scaling, so you can focus on building your app.</p>
           </div>
@@ -62,18 +62,18 @@ export default function Home() {
           AppForge leverages the power of low-code and no-code development to provide numerous advantages over traditional coding methods.
         </p>
 
-        <div className='features grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-          <div className='feature bg-white p-6 rounded-lg shadow-md'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+          <div className='bg-white p-6 rounded-lg shadow-md'>
             <h2 className='text-xl font-semibold mb-2'>Faster Development</h2>
             <p>Build and deploy apps in days or weeks instead of months. Accelerate your time to market and respond quickly to changing business needs.</p>
           </div>
 
-          <div className='feature bg-white p-6 rounded-lg shadow-md'>
+          <div className='bg-white p-6 rounded-lg shadow-md'>
             <h2 className='text-xl font-semibold mb-2'>Reduced Costs</h2>
             <p>Minimize development costs by reducing the need for specialized coding skills. Empower your existing team to create and maintain applications.</p>
           </div>
 
-          <div className='feature bg-white p-6 rounded-lg shadow-md'>
+          <div className='bg-white p-6 rounded-lg shadow-md'>
             <h2 className='text-xl font-semibold mb-2'>Increased Agility</h2>
             <p>Adapt to evolving requirements and user feedback with ease. Make changes and updates quickly without complex code refactoring.</p>
           </div>

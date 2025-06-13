@@ -13,9 +13,9 @@ export default function Navbar() {
 
                 <div className="flex items-center gap-4">
                     <ul className="flex flex-row text-black hover:cursor-pointer width-full">
-                        <li className="mx-2 py-2 px-2"><Link to='/'>My Apps</Link></li>
+                        {/* <li className="mx-2 py-2 px-2"><Link to='/'>My Apps</Link></li> */}
                         <li className="mx-2 py-2 px-2"><Link to='/about'>About</Link></li>
-                        <li className="mx-2 py-2 rounded-xl px-2 bg-[#edf3dc] "><NavLink to='/signup'>Sign Up</NavLink></li>
+                        <li className="mx-2 py-2 rounded-xl px-2 bg-[#edf3dc] "><NavLink to='/register'>Sign Up</NavLink></li>
                         <li className="mx-2 py-2 rounded-xl px-2 bg-[#edf3dc] "><NavLink to='/login'>Log In</NavLink></li>
                         <li className="mx-2 mt-2">
                             <NavLink to='/profile'>

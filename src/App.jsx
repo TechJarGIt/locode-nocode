@@ -1,24 +1,27 @@
-import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Create from "./components/Create";
-import Login from "./components/Login";
+import Navbar from "./components/Navbar";
 import Register from "./components/Register";
+import Login from "./components/Login";
 import About from "./components/About";
+import Create from "./components/Create";
+import { AuthProvider } from "./context/AuthContext";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
 
   return (
     <div className="bg-white">
-      <Navbar/>
+      <AuthProvider>
+        <Navbar/>
 
-      <Routes>
-        <Route path="/" element={ <Home/>} />
-        <Route path="/create" element={ <Create/>} />
-        <Route path="/login" element={ <Login/>} />
-        <Route path="/signup" element={ <Register/>} />
-        <Route path="/about" element={ <About/>} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={ <Home/>} />
+          <Route path="/login" element={ <Login/>} />
+          <Route path="/register" element={ <Register/>} />
+          <Route path="/create" element={ <Create/>} />
+          <Route path="/about" element={ <About/>} />
+        </Routes>
+      </AuthProvider>
     </div>
   )
 }
